@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            padding: 10px;
+            background-color: brown;
+            display: flex;
+            justify-content: space-around;
+            text-decoration: none;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+
+        }
+        nav a:hover{
+            color: yellow;
+            text-shadow: 3px 3px 3px black;
+        }
+        header h1{
+            font-size: 2em;
+            color: yellow;
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+        }
+        header{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            height: 400px;
+            background-image: url(Sin\ título.jpeg);
+            text-shadow: 3px 3px 3px black;
+            background-size: cover;
+        }
+        #contenedor-header{
+            border: 2px solid red;
+            padding: 20px;
+        }
+        #contenedor-servicios{
+            display: flex;
+            border: 2px dashed blue;
+        }
+        section{
+            padding: 20px;
+        }
+        .titulo{
+            color: brown;
+            border: 2px solid green;
+            text-align: center;
+            border-bottom: 20px;
+        }
+        .caja{
+            border: 2px solid red;
+        }
+        section#servicios{
+            
+        }
+        section#servicios{
+            background-color: aquamarine;
+
+        }
+        section#obras{
+            background-color: antiquewhite;
+        }
+        .obra {
+            width: 30%;
+            border: 2px solid red;
+        }
+        .obra img {
+            width: 90%;
+        }
+        #contenedor-obras{
+            border: 2px dashed blue;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .caja-footer{
+            width: 33%;
+            border: 2px solid red;
+            padding: 10px;
+
+        }
+        footer{
+            background-color: grey;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        footer #contacte {
+            width: 100%;
+            border-bottom: 2px solid white;
+        }
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Inicio</a>
+        <a href="#Servicios">Servicios</a>
+        <a href="#Obras">Obras</a>
+        <a href="#Contacto">Contacto</a>
+    </nav>
+    <header>
+        <div id="contenedor-header">
+        <h1>Ágora</h1>
+        <h2>Estudio de Arquitectura</h2>
+        </div>
+    </header>
+    <section id="servicios">
+        <h1 class="titulo">
+            Servicios
+        </h1>
+        <div id="contenedor-servicios">
+            <div class="caja">
+                <h1>Diseño de Interiores</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam hic quia ipsum eius, explicabo blanditiis nulla, voluptatem autem quibusdam tempora illum iure? Modi dignissimos maiores soluta aliquam facilis natus ipsam.</p>
+                <h1>Reformas</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nemo omnis consequuntur quod dolores, labore debitis eos, repellendus et delectus distinctio voluptates. Magnam libero pariatur praesentium, corporis vel culpa assumenda.</p>
+            </div>
+            <div class="caja">
+                <h1>Demoliciones</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident quaerat, repellat explicabo nobis facilis impedit odit ducimus libero ut error. Sequi id officia velit totam incidunt assumenda perspiciatis dicta.</p>
+            </div>
+        </div>
+    </section>
+    <section id="obras">
+        <h1 class="titulo">
+            Obras
+        </h1>  
+        <div id="contenedor-obras">
+            <div class="obra">
+                <img src="portada-galeria-tres-cantos.webp" alt="">
+                <p>Sevilla</p>
+            </div>
+            <div class="obra">
+                <img src="portada-galeria-tres-cantos.webp" alt="">
+                <p>Madrid</p>
+            </div>
+            <div class="obra">
+                <img src="portada-galeria-tres-cantos.webp" alt="">
+                <p>Barcelona</p>
+            </div>
+            <div class="obra">
+                <img src="portada-galeria-tres-cantos.webp" alt="">
+                <p>Asturias</p>
+            </div>
+            <div class="obra">
+                <img src="portada-galeria-tres-cantos.webp" alt="">
+                <p>Cádiz</p>
+            </div>
+            <div class="obra">
+                <img src="portada-galeria-tres-cantos.webp" alt="">
+                <p>Valencia</p>
+            </div>
+
+
+        </div> 
+    </section>
+    <footer>
+        <div id="contacte">
+            Contacte con Nosotros.
+            Trabajamos los 365 días del año.
+        </div>
+        <div class="caja-footer">
+            <h3>Enlaces</h3>
+            <a href="hhtp://facebook.com">Facebook</a>
+            <a href="hhtp://facebook.com">Facebook</a>
+            <a href="hhtp://facebook.com">Facebook</a>
+        </div>
+        <div class="caja-footer">
+            <h3>Estamos en</h3>
+            <p>Avda. Los institutos s/n</p>
+            <p>13600 Alcázar de San Juan</p>
+        </div>
+        <div class="caja-footer">
+            <h3>Estamos en</h3>
+            <p>Avda. Los institutos s/n</p>
+            <p>13600 Alcázar de San Juan</p>
+        </div>
+    </footer>
+</body>
+</html>
